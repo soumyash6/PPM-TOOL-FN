@@ -6,7 +6,6 @@ import { jwtDecode } from 'jwt-decode';
 export const createUser = (newUsr, history) => async dispatch => {
     var config = {
         headers: {
-            "Access-Control-Allow-Origin": "*",
             "Content-Type": "application/json"
         }
     };
